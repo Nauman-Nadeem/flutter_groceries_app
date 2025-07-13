@@ -1,0 +1,67 @@
+[
+  {
+    "id": "p1",
+    "name": "Apple",
+    "price": 50,
+    "category": "Fruits",
+    "image": "lib/assets/images/apple.png",
+    "description": "Fresh and juicy apples, perfect for snacking or baking."
+  },
+   {
+    "id": "p2",
+    "name": "Apple",
+    "price": 47,
+    "category": "Fruits",
+    "image": "lib/assets/images/apple.png",
+    "description": "Crisp apples with a sweet flavor, great for salads and desserts."
+  },
+  {
+    "id": "p3",
+    "name": "Chicken Breast",
+    "price": 200,
+    "category": "Meat",
+    "image": "lib/assets/images/chicken.png",
+    "description": "Lean chicken breast, ideal for grilling, roasting, or stir-frying."
+  },
+   {
+    "id": "p3",
+    "name": "Chicken Breast",
+    "price": 350,
+    "category": "Meat",
+    "image": "lib/assets/images/chicken.png",
+    "description": "Premium chicken breast, tender and full of flavor."
+  },
+  {
+    "id": "p4",
+    "name": "Beef Steak",
+    "price": 300,
+    "category": "Meat",
+    "image": "lib/assets/images/beef.png",
+    "description": "Juicy beef steak, perfect for grilling or pan-searing."
+  },
+  {
+    "id": "p5",
+    "name": "Ginger",
+    "price": 150,
+    "category": "Vegetables",
+    "image": "lib/assets/images/ginger.png",
+    "description": "Aromatic ginger root, great for cooking and tea."
+  },
+  {
+    "id": "p6",
+    "name": "Red Bell Pepper",
+    "price": 120,
+    "category": "Vegetables",
+    "image": "lib/assets/images/red_bell_pepper.png",
+    "description": "Sweet red bell pepper, adds color and crunch to dishes."
+  },
+   {
+    "id": "p7",
+    "name": "Red Bell Pepper",
+    "price": 180,
+    "category": "Vegetables",
+    "image": "lib/assets/images/red_bell_pepper.png",
+    "description": "Fresh red bell pepper, perfect for salads and roasting."
+  }
+]
+
