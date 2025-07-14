@@ -1,4 +1,5 @@
-//README with setup instructions
+README with setup instructions
+This project was created as part of the MUST Company Flutter Intern Assessment.
 
 # groceries_app
 
