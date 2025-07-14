@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import '../models/product.dart';
 import '../services/cart_service.dart';
 
+// CartScreen widget that displays the user's shopping cart
+// It allows users to view products in their cart, update quantities, and proceed to checkout
 class CartScreen extends StatefulWidget {
   @override
   State<CartScreen> createState() => _CartScreenState();

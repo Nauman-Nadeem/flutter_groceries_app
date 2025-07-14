@@ -7,7 +7,7 @@ import 'package:groceries_appp/screens/search_screen.dart';
 import 'package:provider/provider.dart';
 import '../providers/navigation_provider.dart'; 
 
-
+// MainNavigation widget that provides a bottom navigation bar for the app
 class MainNavigation extends StatelessWidget {
   final List<Widget> pages = [
     HomeScreen(),

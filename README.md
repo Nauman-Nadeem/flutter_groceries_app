@@ -1,2 +1,17 @@
+//README with setup instructions
+
 # groceries_app
-an assesment for Flutter UI
+
+A simple Flutter application for grocery shopping UI assessment.  
+This app demonstrates modern Flutter UI design including product listing, cart management, and responsive layouts.
+
+## Setup Instructions
+
+1. **Flutter SDK**: Install [Flutter](https://docs.flutter.dev/get-started/install) (version 3.10 or higher recommended).
+2. **Clone the repository**:
+   git clone <repo-url>
+   cd app
+   
+3. flutter pub get
+4. flutter run
+

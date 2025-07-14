@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:groceries_appp/services/user_service.dart';
 
+// Profile Screen
+// This screen displays user profile information and settings
 class ProfileScreen extends StatelessWidget {
   final UserService _userService = UserService();
 

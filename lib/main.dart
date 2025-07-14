@@ -3,6 +3,7 @@ import 'package:groceries_appp/providers/main_navigation.dart';
 import 'package:provider/provider.dart';
 import 'providers/navigation_provider.dart';
 
+// Main entry point of the application
 void main() {
   runApp(
     ChangeNotifierProvider(
@@ -11,7 +12,7 @@ void main() {
     ),
   );
 }
-
+// Main application widget
 class GroceryApp extends StatelessWidget {
   const GroceryApp({super.key});
 

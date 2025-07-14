@@ -3,6 +3,8 @@ import '../services/product_service.dart';
 import '../models/product.dart';
 import '../widgets/product_card.dart';
 
+// HomeScreen widget that displays the main content of the app
+// It includes a search bar and sections for different product categories
 class HomeScreen extends StatefulWidget {
   @override
   State<HomeScreen> createState() => _HomeScreenState();

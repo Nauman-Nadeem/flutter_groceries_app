@@ -3,6 +3,8 @@ import '../models/product.dart';
 import 'dart:convert';
 import 'package:flutter/services.dart';
 
+// Cart Service
+// This service handles cart operations like loading products and updating quantities
 class CartService {
   Future<List<Product>> loadProducts() async {
     final jsonStr = await rootBundle.loadString('lib/assets/product.json');

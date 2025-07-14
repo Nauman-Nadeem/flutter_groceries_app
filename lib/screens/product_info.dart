@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import '../services/cart_service.dart';
 import '../models/product.dart';
 
+// Product Information Screen
+// This screen displays detailed information about a product
 class ProductInfo extends StatefulWidget {
   final Product product;
   const ProductInfo({super.key, required this.product});
@@ -28,7 +30,7 @@ class _ProductInfoState extends State<ProductInfo> {
       loading = false;
     });
   }
-
+// Update cart quantity and show a snackbar
   Future<void> _updateCart(int qty) async {
     await _cartService.updateQuantity(widget.product.id, qty);
     setState(() {

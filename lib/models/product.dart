@@ -1,3 +1,5 @@
+// Model for Product
+// This class represents a product with its details and provides a method to create an instance from JSON
 class Product {
   final String id;
   final String name;
@@ -5,7 +7,8 @@ class Product {
   final String category;
   final String image;
   final String? description;
-
+  
+// Constructor for Product
   Product({
     required this.id,
     required this.name,
@@ -15,6 +18,7 @@ class Product {
     this.description,
   });
 
+  // Factory method to create a Product instance from a JSON map
   factory Product.fromJson(Map<String, dynamic> json) {
     return Product(
       id: json['id'],
